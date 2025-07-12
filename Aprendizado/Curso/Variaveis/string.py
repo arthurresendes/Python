@@ -14,6 +14,9 @@ print(nome[7:15]) # Do 7 ate o 15 (sobrenome)
 #Inverte o nome ao contrario
 print(nome.lower()[::-1])
 
+#Replace troca letras , no caso troca a letra e pela letra A
+print(nome.upper().replace('E' , 'A'))
+
 nome = "arthur's bar" #Para usar ' em um texto precisa estar em aspas dupla 
 print(nome.title())
 print(type(nome))
