@@ -253,3 +253,17 @@ print(tupla1)
 print(type(tupla1)) 
 
 #Copiando uma lista para a outra com shallow copy e deep copy , no deep copy uma lista dentro da outra é copiada , enquanto no shallow copy não sendo apenas referenciada
+lista10 = [1,2,3]
+lista11 = lista10.copy()
+lista11.append(4)
+
+print("Copy: ")
+print(lista10)
+print(lista11)
+lista10 = [1,2,3]
+lista11 = lista10
+
+lista11.append(4)
+print("Shallow Copy")
+print(lista10)
+print(lista11)
