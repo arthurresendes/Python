@@ -10,6 +10,10 @@ Conjunto não são indexados
 
 # Forma 1
 s = set({1,2,3,4,5,6,7,2,2,3})
+print(max(s))
+print(min(s))
+print(sum(s))
+print(len(s))
 print(type(s))
 print(s)
 
@@ -77,4 +81,21 @@ estudantesJava = {'Arthur' , 'Jose', 'Carlos' , 'Davi', 'Tuco'}
 # Utilizando o union 
 unicos1 = estudantesPy.union(estudantesJava)
 print(unicos1)
+
+# Utilizando o pipe |
+unicos2 = estudantesPy | estudantesJava
+print(unicos2)
+
+# Gerar um conjunto de estudantes que estão em ambas as linguagens
+ambos = estudantesPy.intersection(estudantesJava)
+
+# Outra forma
+ambos2 = estudantesPy & estudantesJava
+print(ambos2)
+
+# Gera um conjunto de estudantes que estao em apenas um curso
+
+soPy = estudantesPy.difference(estudantesJava)
+soJava = estudantesJava.difference(estudantesPy)
+
 
