@@ -3,6 +3,7 @@ Conjuntos  em qualquer linguagem estamos fazendo referencia a teoria dos conjunt
 
 Conjuntos em py são chamados de set(), sem possuir valores duplicados e não são ordenados
 
+Conjunto não são indexados
 """
 
 # Definido um conjunto
@@ -46,5 +47,34 @@ s4 = {1,2,3}
 s4.add(4)
 print(s4)
 # Remoção
+# Forma 1
 s4.remove(4)
+# Forma 2
+s4.add(5)
+s4.discard(5)
 print(s4)
+
+# Copiando um set para o outro
+#Shallow - tudo muda
+s6 = {1,2,3,4}
+print(s6)
+novo = s6
+novo.add(5)
+print(novo,s6)
+# Deep - so muda o novo
+new = s6.copy()
+new.add(6)
+print(new,s6)
+
+# Limpando o conjunto
+s6.clear()
+print(s6)
+
+# Conjunto metodos matematicos
+estudantesPy = {'Arthur' , 'Jose', 'Pedro' , 'Maria', 'Escobar', 'Lalo'}
+estudantesJava = {'Arthur' , 'Jose', 'Carlos' , 'Davi', 'Tuco'}
+
+# Utilizando o union 
+unicos1 = estudantesPy.union(estudantesJava)
+print(unicos1)
+
