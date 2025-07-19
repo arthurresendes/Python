@@ -12,3 +12,4 @@ print(receita)
 print("Atualizando valor de abril: ")
 receita.update({'abr': 1000})
 print(receita)
+
