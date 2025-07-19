@@ -115,3 +115,6 @@ print(outro)
 
 # Todos valores serão desconhecidos
 user = {}.fromkeys(['nome' , 'sobrenome', 'email,profile'] , 'desconhecido')
+
+novo = {}.fromkeys(range(1,11),'desconhecido')
+print(novo)
