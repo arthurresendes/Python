@@ -3,12 +3,12 @@ from collections import defaultdict
 # Criando o defaultdict
 nomes_por_letra = defaultdict(list)
 
-# Lista de nomes (pode substituir por input se quiser)
+# Lista de nomes
 nomes = ["Alice", "André", "Bruna", "Bruno", "Caio", "Carlos"]
 
 # Agrupando por letra inicial
 for nome in nomes:
-    inicial = nome[0].upper()  # pegar a primeira letra
+    inicial = nome[0].upper()  
     nomes_por_letra[inicial].append(nome)
 
 # Exibindo os grupos
