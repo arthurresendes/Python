@@ -27,16 +27,16 @@ aniversariante = input("Quem faz aniversario: ")
 cantar_parabens(aniversariante)
 
 def soma(a,b):
-    return a + b
+    return  a + b
 
 def sub(a,b):
-    return a - b
+    return  a - b
 
 def multi(a,b):
-    return a * b
+    return  a * b
 
 def divide(a,b):
-    return a / b
+    return  a / b
 
 num1 = int(input("Digite num: "))
 num2 = int(input("Digite num: "))
@@ -56,5 +56,18 @@ def nome_completo(nome,sobrenome):
 
 print(nome_completo('Arthur' , 'Resende' ))
 
+print(nome_completo(nome='Arthur' , sobrenome='Resende'))
 
-#
+nome1 = 'Gus'
+sobrenome1 = 'Fring'
+print(nome_completo(nome = nome1 ,sobrenome = sobrenome1))
+print(nome_completo(nome1,sobrenome1))
+
+def impar(numeros):
+    total = 0
+    for i in numeros:
+        if i %2 != 0:
+            total += i
+    return total
+
+print(impar([1, 2, 3, 4, 5]))
