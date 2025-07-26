@@ -1,6 +1,13 @@
 """
 Listas aninhadas
 
+
+Estrutura:
+result =[[valorAserMudado2 * 2 for valor2 in valor1]for valor1 in valor]
+
+for valor1 in valor:
+    for valor2 in valor1:
+        valorASerMudado2 = valorASerMudado2 * 2
 """
 
 # Lista aninhadas , matriz nesse exemplo
