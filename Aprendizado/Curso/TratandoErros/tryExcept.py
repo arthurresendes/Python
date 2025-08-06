@@ -7,6 +7,8 @@ try ->
 execpt erro ->
 """
 
+
+'''
 try:
     arthur()
 except :
@@ -27,3 +29,4 @@ except KeyError as ke:
     print(f"Erro -> {ke}")
 except NameError as ne:
     print(f"Erro -> {ne}")
+'''
