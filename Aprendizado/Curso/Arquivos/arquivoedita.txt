@@ -1,1 +1,3 @@
-Ola mundo
+Escrever dados em arquivos eh facil
+Podemos colocar quantas linhas quisermos
+Ultima linha
