@@ -9,5 +9,3 @@ import os
 
 print(os.path.exists('arquivos.txt'))
 print(os.path.exists('Aprendizado/Curso/Arquivo'))
-
-open('teste.txt', 'w').close()
