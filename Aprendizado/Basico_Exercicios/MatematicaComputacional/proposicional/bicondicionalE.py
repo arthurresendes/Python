@@ -4,7 +4,7 @@ r = True
 result1 = None
 result2 = None
 
-if p and q == True:
+if p or q == True:
     result1 = True
 else:
     result1 = False
