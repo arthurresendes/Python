@@ -1,0 +1,25 @@
+nome = 'Arthur Resende Gomes'
+
+nome_ite = iter(nome)
+
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+print(next(nome_ite))
+
