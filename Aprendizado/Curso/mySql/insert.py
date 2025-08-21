@@ -9,9 +9,8 @@ conexao = mysql.connector.connect(
 )
 
 meu_cursor = conexao.cursor()
-nome = 'a'
 
-ins = f"INSERT INTO tbcliente (nome, cpf) VALUES (%s, %s)" # -> Rever pq % s
+ins = "INSERT INTO tbcliente (nome, cpf) VALUES (%s, %s)" # -> Rever pq % s
 valores = ('Arthur', '123-456-789-12')
 
 meu_cursor.execute(ins,valores)
