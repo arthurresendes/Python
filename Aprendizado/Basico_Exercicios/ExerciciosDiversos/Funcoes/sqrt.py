@@ -7,4 +7,5 @@ def raiz(num):
     else:
         return 'Raiz não é completa'
 
-print(raiz(99))
+number = int(input("Digite um número para ver sua raiz: "))
+print(raiz(number))
