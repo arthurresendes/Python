@@ -15,6 +15,6 @@ valores = ('Arthur', '123-456-789-12')
 
 meu_cursor.execute(ins,valores)
 
-conexao.commit() # -> Rever
+conexao.commit() # Confirma as transações
 
-print(meu_cursor.rowcount, 'Inserido') # -> Rever
+print(meu_cursor.rowcount, 'Inserido') # -> Retorna o numero de linhas afetadas
