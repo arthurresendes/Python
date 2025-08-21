@@ -2,7 +2,7 @@ import mysql.connector
 # pip install mySql.connector
 
 conexao = mysql.connector.connect(
-    host = "",
+    host = "localhost",
     user = "",
     password = "",
     database = "tbcliente"
