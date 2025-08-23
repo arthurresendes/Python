@@ -40,6 +40,7 @@ for atributos in ['vida', 'ataque','defesa']:
 print(f"\nResultado final:")
 print(f"Usuário escolheu: {escolhaUser['nome']} - Vida: {escolhaUser['vida']} | Ataque: {escolhaUser['ataque']} | Defesa: {escolhaUser['defesa']}")
 print(f"PC escolheu: {escolhaPc['nome']} - Vida: {escolhaPc['vida']} | Ataque: {escolhaPc['ataque']} | Defesa: {escolhaPc['defesa']}")
+
 if pontosUser > pontosPc:
     print(f"{escolhaUser['nome']} venceu o {escolhaPc['nome']}!")
 elif pontosUser < pontosPc:
