@@ -9,7 +9,7 @@ def repetir(n):
 
 
 @repetir(3)
-def oi():
-    print("Oi!")
+def oi(nome = 'Arthur'):
+    print(f"Oi {nome}!")
 
 oi()
