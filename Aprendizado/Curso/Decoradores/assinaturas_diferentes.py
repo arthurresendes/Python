@@ -37,3 +37,20 @@ print(soma_dez(10,2))
 print(soma_dez(20,2))
 print(comida_favorita('pizza', 'MC'))
 print(comida_favorita('KFC', 'Parmegiana'))
+
+def loop(n):
+    def recebe(func):
+        def wrapper(*args, **kwargs):
+            results = []  
+            for i in range(n):  
+                results.append(func(*args, **kwargs))
+            return results 
+        return wrapper
+    return recebe
+
+@loop(3)
+def iterando(nome):
+    print(f"Olá {nome}")
+    return nome.upper()
+
+print(iterando(nome='Arthur'))
