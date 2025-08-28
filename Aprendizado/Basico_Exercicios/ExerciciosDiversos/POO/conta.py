@@ -11,3 +11,14 @@ class Conta:
 
     def exibir_saldo(self):
         print(f"Titular: {self.titular}\nSaldo: {self.saldo}")
+
+conta1 = Conta('Arthur', 1000)
+conta1.exibir_saldo()
+
+
+conta1.depositar(500)
+conta1.exibir_saldo()
+
+
+conta1.sacar(1500)
+conta1.exibir_saldo()
