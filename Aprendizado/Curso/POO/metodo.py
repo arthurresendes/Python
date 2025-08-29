@@ -30,14 +30,12 @@ class Populacao:
     def contaPessoas(cls):
         return cls.cont
 
-pessoas = [
-    ('Arthur'),('Jose'),('Gustavo')
-]
+pessoas = ['Arthur', 'Jose', 'Gustavo']
 
 for p in pessoas:
     person = Populacao(p)
     print(person.nome)
-    print(Populacao.contaPessoas())
+print(Populacao.contaPessoas())
 
 # Metodos estaticos , @staticmethod. Serve como funções comuns não ligadas a objetos e sim a classe
 
@@ -47,7 +45,7 @@ class Conversor:
     
     @staticmethod
     def celsius_para_fahrenheit(c):
-        f = c * 1,8 + 32
+        f = c * 1.8 + 32
         return f
 
     @staticmethod
