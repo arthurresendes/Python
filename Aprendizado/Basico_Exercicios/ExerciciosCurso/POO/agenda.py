@@ -43,3 +43,7 @@ class Agenda:
 
 c1 = Contato("Arthur", 999999, 'arg@gmail')
 
+agenda = Agenda()
+
+agenda.aramzena_contato(c1)
+agenda.imprimir_contato(0)
