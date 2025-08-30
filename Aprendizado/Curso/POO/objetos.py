@@ -20,15 +20,23 @@ class Lampada:
         else:
             self.__ligada = True
 
+class Cliente:
+    def __init__(self,nome,cpf):
+        self.__nome = nome
+        self.__cpf = cpf
 
 class ContaCorrente:
     contador = 4999
     
-    def __init__(self,limite,saldo):
+    def __init__(self,limite,saldo , cliente):
         self.__numero = ContaCorrente.contador + 1
         self.__limite = limite
         self.__saldo = saldo
+        self.__cliente = cliente
         ContaCorrente.contador = self.__numero
+
+    def cliente(self):
+        print(f"O cliente é {self.__cliente._Cliente__nome}")
 
 # Instancia / Objeto
 lamp1 = Lampada('Branca', 110,60)
@@ -36,3 +44,9 @@ lamp1 = Lampada('Branca', 110,60)
 print(lamp1.checar_lampada())
 lamp1.ligar_desligar()
 print(lamp1.checar_lampada())
+
+clie1 = Cliente("Arthur" , 2)
+
+cc = ContaCorrente(5500,10002,clie1)
+
+cc.cliente()
