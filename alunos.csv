@@ -1,6 +1,3 @@
-"nome,idade"
-a,12
-b,22
-a,21
-d,24
-f,3
+nome,nota1,nota2
+Arthur,5.0,8.0
+jose,4.0,4.0
