@@ -1,7 +1,7 @@
 '''
 Conhecendo o pickle
 
-
+wb , rb
 Objeto python -> Binarização
 
 binarização -> Objeto Python
