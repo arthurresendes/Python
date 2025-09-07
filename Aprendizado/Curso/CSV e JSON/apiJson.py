@@ -10,6 +10,9 @@ print(requisicao)
 #print(requisicao.json())
 
 dic_requisi = requisicao.json()
+dados = dic_requisi['USDBRL']
+number = float(dados['bid'])
+print(number * 200)
 print(dic_requisi['USDBRL'])
 print(dic_requisi['BTCBRL'])
 print(dic_requisi['EURBRL'])
