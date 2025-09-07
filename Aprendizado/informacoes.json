@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "arthur",
+        "idade": "18",
+        "cidade": "osasco"
+    },
+    {
+        "nome": "jose",
+        "idade": "18",
+        "cidade": "osasco"
+    },
+    {
+        "nome": "augusto",
+        "idade": "67",
+        "cidade": "copacaban"
+    },
+    {
+        "nome": "maria",
+        "idade": "15",
+        "cidade": "helena maria"
+    }
+]
