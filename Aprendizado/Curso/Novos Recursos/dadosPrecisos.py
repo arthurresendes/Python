@@ -61,3 +61,15 @@ class CursoPython(TypedDict):
 
 arthur = CursoPython(versao='4.1', atualizacao=2025)
 print(arthur)
+
+class Curso(Protocol):
+    titulo: str = "Python"
+
+def estudar(valor: Curso)-> None:
+    print(f"Estou estudando o curso {valor.titulo}")
+
+class Venda:
+    titulo:str = 'Python'
+
+v1 = Venda()
+estudar(v1)
