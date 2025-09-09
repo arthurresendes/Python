@@ -55,3 +55,9 @@ class Estudante:
 class Estagiario:
     pass
 
+class CursoPython(TypedDict):
+    versao: str
+    atualizacao: int
+
+arthur = CursoPython(versao='4.1', atualizacao=2025)
+print(arthur)
