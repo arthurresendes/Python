@@ -6,7 +6,7 @@ print(dobro(2))
 """
 Literal
 Union
-Finaç
+Final
 Typed dictionaries
 protocols
 
@@ -37,3 +37,21 @@ def soma(num1:int , num2:int)-> Union[str,int]:
         return f"O resultado é menor que 50:  {resultado}"
 
 print(soma(10,43))
+
+
+# Não pode usar herença de pessoa
+@final
+class Pessoa:
+    pass
+
+class Estudante:
+    pass
+
+    # não pode sobrescrever o metodo em outra class
+    @final
+    def estudar(self):
+        'Estou estudando'
+
+class Estagiario:
+    pass
+
