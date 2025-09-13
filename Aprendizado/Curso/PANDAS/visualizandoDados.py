@@ -13,4 +13,7 @@ print(concatena.loc['f1']) -> Loc localiza algo na tabela
 
 pd.merge(tabela_esquerda, tabela_direita, on="coluna_que_liga" , how="right,left,inner,outrt")
 
+drop -> remove
+drop_duplicate -> remove duplicata
+
 '''

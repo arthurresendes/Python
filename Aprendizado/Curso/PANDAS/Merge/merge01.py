@@ -28,11 +28,28 @@ print(df)
 print(df2)
 print(df3)
 
+print("\nIntersecção: ")
 interseccao = pd.merge(df, df2[['Id', 'Nome', 'Idade']] , on='Id', how='inner')
 print(interseccao)
 
-esquerda = pd.merge(df,df2 , on="Id", how="left")
+print("\nLeft Join")
+esquerda = pd.merge(df,df3 , on="Id", how="left")
+agrupando = esquerda.groupby(['Id', 'Nome'])['Valor'].sum()
+direita = pd.merge(df2,df3 , on="Id", how="right")
 print(esquerda)
+print("\nGroup by esquerda: ")
+print(agrupando)
+print("\nRight Join")
+print(direita)
+
+print("\nJoin Full:")
+juncaofull = pd.concat([df,df2], ignore_index=True)
+juncaofull.drop_duplicates('Id')
+print(juncaofull)
+print("\nJuntando com compras: ")
+
+
+
 
 todos = pd.concat([df,df2])
 juncao_compras = pd.merge(todos , df3 , on="Id" , how="inner")
