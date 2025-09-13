@@ -17,5 +17,7 @@ drop -> remove
 drop_duplicate -> remove duplicata
 
 
-agrupamento = 
+agrupamento = df.groupby(['Coluna']).sum() 
+
+
 '''

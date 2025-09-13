@@ -10,5 +10,7 @@ df = pd.DataFrame({
 })
 
 print(df)
-agrupamento = df.groupby(['A']).sum()
+agrupamento = df.groupby(['A']).mean(numeric_only=True)
+soma = df.groupby(['A', 'B']).sum()
 print(agrupamento)
+print(soma)
