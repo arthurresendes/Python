@@ -11,5 +11,6 @@ dados2 = {'Nome': ['Ana', 'Bruno','Carla'],
         }
 df = pd.DataFrame(dados)
 df2 = pd.DataFrame(dados2)
-concatena = pd.concat([df,df2])
+concatena = pd.concat([df,df2] , keys=['D1','D2'])
 print(concatena)
+print(concatena.loc['D1'])
