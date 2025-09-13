@@ -16,4 +16,6 @@ pd.merge(tabela_esquerda, tabela_direita, on="coluna_que_liga" , how="right,left
 drop -> remove
 drop_duplicate -> remove duplicata
 
+
+agrupamento = 
 '''
