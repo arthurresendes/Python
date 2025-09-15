@@ -22,4 +22,8 @@ agrupamento = df.groupby(['Coluna']).sum()
 df.t -> Transforma linha em coluna e coluna em linha
 df.shape -> Mostra as linhas e colunas
 
+df.pivot(index= , columns= ,values=) -> deixa tabela mais organizada
+
+df.pivot_table(index= , columns= ,values=.aggfunc='sum') -> Passa função como soma , etc
+
 '''
