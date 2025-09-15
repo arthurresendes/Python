@@ -19,5 +19,7 @@ drop_duplicate -> remove duplicata
 
 agrupamento = df.groupby(['Coluna']).sum() 
 
+df.t -> Transforma linha em coluna e coluna em linha
+df.shape -> Mostra as linhas e colunas
 
 '''
