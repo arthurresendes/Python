@@ -13,6 +13,7 @@ concatena = pd.concat([df,df1,df2]), keys=['f1','f2','f3'] -> Concatena os dataf
 
 Localização:
 print(concatena.loc['f1']) -> Loc localiza algo na tabela
+print(df.iloc[2:4 , 0:2]) -> pega da linha 2 ate 4 a coluna 0 e 1
 
 Juntando:
 pd.merge(tabela_esquerda, tabela_direita, on="coluna_que_liga" , how="right,left,inner,outrt")

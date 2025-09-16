@@ -9,3 +9,8 @@ print(df[1:5])
 print(df.loc[:, ['B', 'C', 'D']])
 
 print(df.loc['20200301': '20200901' , ['A', 'E']])
+
+print(df.iloc[1])
+print(df.iloc[2:4 , 0:2])
+print(df.iloc[[1,5,6] , [0,3]])
+print(df.iloc[1:3 , :])
