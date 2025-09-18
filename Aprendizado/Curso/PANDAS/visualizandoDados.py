@@ -29,4 +29,16 @@ Modo de amostra mais 'belo':
 df.pivot(index= , columns= ,values=) -> deixa tabela mais organizada
 df.pivot_table(index= , columns= ,values=.aggfunc='sum') -> Passa função como soma , etc
 
+
+Ordenando dados:
+df.sort_values(by="Nome coluna")
+df.sort_index()
+
+Dados unicos:
+dropna -> Apaga dados em branco
+fillna -> coloca valores no dados em branco
+unique -> mostra valores unicos
+nunique -> mostra o numero de unicos
+inplacve =  True no fillna e dropna para atualizar direto no df
+
 '''
