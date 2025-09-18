@@ -39,6 +39,5 @@ dropna -> Apaga dados em branco
 fillna -> coloca valores no dados em branco
 unique -> mostra valores unicos
 nunique -> mostra o numero de unicos
-inplacve =  True no fillna e dropna para atualizar direto no df
-
+inplace =  True no fillna e dropna para atualizar direto no df
 '''
