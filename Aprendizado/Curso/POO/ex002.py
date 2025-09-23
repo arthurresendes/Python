@@ -3,10 +3,8 @@ class Aluno:
         self.nome = nome
         self.matricula = matricula
         self.notas = []
-   
     def adicionar_nota(self,nota):
         self.notas.append(nota)
-   
     def remover_nota(self):
         for i in self.notas:
             print(i)
@@ -21,7 +19,6 @@ class Aluno:
             soma += i
         media = soma/len(self.notas)
         return f"Media: {media}"
-   
 
 al1 = Aluno('Arthur', 12345)
 al1.adicionar_nota(10)
