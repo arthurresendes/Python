@@ -28,7 +28,7 @@ def valor_saque():
         except:
             print("Digite um número inteiro!!")
     n50,n20,n10 = notas_saque(saque)
-    print(f"{n50,n20,n10}")
+    print(f"Notas de 50: {n50}, Notas de 20: {n20}, Notas de 10: {n10}")
 
 
 if __name__ == "__main__":
