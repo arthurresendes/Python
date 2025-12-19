@@ -1,4 +1,4 @@
-def ler_num() -> int:
+def ler_num():
     while True:
         try:
             a = int(input("Digite numero A: "))
