@@ -1,4 +1,4 @@
-def maior_de_cada(matriz) -> list[int]:
+def maior_de_cada(matriz: list[list]) -> list[int]:
     lista_maiores = []
     for i in matriz:
         lista_maiores.append(max(i))
