@@ -1,5 +1,3 @@
-from collections import Counter
-
 def contagem(frase: str) -> list[int,str]:
     palavras = frase.split()
     contador_palavras = len(palavras)
